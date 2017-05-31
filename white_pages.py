@@ -20,7 +20,7 @@ if response == "": # If variable eqauls nothing, run the codes below
 
     Now you will type in informations of three people you want...
     """ # Print multiple lines
-    with open (filename, "w") as f: # Open file with name that user set, and write
+    with open (filename + ".txt", "w") as f: # Open file with name that user set, and write
 
         per1 = raw_input("First person's name:") # Make variable called per1 with line of texts
         f.write(per1 + "\n") # Type in per1 with newline inside the text file
